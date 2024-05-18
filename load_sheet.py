@@ -12,7 +12,7 @@ print(ws1)
 ws2 = wb['balance']
 print(ws2)
 
-# Add a new sheet
+# Add a new sheet at specificed index
 wb.create_sheet("NewSheet",index=0)  # add as 1st sheet
 wb.save("example.xlsx")  #always save
 
